@@ -1,0 +1,164 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Fixed Navbar */
+nav {
+    position: fixed; /* Changed to fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 1000; /* Keeps the navbar above other content */
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Navbar Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Hover effect for links */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 0; /* Increased height */
+    background-image: url('hero-bg.jpg'); /* Add your hero image here */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Container for content sections */
+.container {
+    max-width: 1200px;
+    margin: 150px auto; /* Added margin to offset fixed navbar */
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Card styling for sections */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* General link styling */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+/* Fixed Navbar */
+nav {
+    position: fixed; /* Keeps the navbar fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 1000; /* Keeps the navbar above other content */
+    padding: 25px 0; /* Increased padding for a bigger navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Navbar Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px; /* Increased margin for better spacing */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px; /* Increased font size for better readability */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff5722; /* Hover effect for links */
+}
+
+.card {
+    background-color: #f9f9f9; /* Card background color */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 20px; /* Margin for spacing between cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
